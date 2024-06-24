@@ -1,0 +1,111 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+  }
+  
+  body {
+    background-image: url(bg.png);
+    background-repeat: repeat;
+    height: auto;
+    display: grid;
+
+  }
+  
+  h1 {
+    text-align: left;
+    font-family: Oswald;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    background-color: hsl(192, 100%, 25%);
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;          
+    background-color: hsl(192, 100%, 25%);
+    padding: 10px 0;
+  }
+  
+  footer p {
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    padding: 10px;
+  }
+  
+  footer span {
+    font-weight: bold;
+  }
+  
+  .by {
+    font-family: 'Playwrite PL';
+    font-size: 16px;
+    text-transform: none;
+    font-style: italic;
+  }
+  section {
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+  h2 {
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    border: 0;
+    padding: 7px 0 7px 0;
+  }
+  
+  .tablefooter {
+      width: 100%;
+      height: 10px;
+      border-radius: 0 0 10px 10px;
+      border: 0;
+      margin-bottom: 30px;
+  }
+  
+  
+  
+  p {
+    text-align: center;
+  }
+  .pink {
+    background-color: hsl(340, 100%, 70%);
+    color: white;
+  }
+  .pink2 {
+    background-color: hsl(330, 100%, 60%);
+    color: white;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  .code {
+    color: black;
+    background-color: hsl(340, 100%, 95%);
+    padding: 3px;
+  }
+  
+  td p {
+    text-align: left;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  th.tags {
+    background-color: hsl(340, 100%, 95%);
+  }
+  .desc {
+    margin-bottom: 15px;
+    font-style: italic;
+    color: gray;
+  }
